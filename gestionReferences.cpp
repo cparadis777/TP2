@@ -1,20 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
- * File:   gestionReferences.cpp
- * Author: etudiant
- *
- * Created on 30 septembre 2021, 17:28
- */
-
-#ifndef GESTIONREFERENCES_CPP
-#define GESTIONREFERENCES_CPP
 
 
+#include <iostream>
+#include <string>
+#include "validationFormat.h"
+#include "Reference.h"
+#include "gestionReferences.h"
 
-#endif /* GESTIONREFERENCES_CPP */
 
+void
+entreeUtilisateur (void)
+{
+  std::string titre;
+  std::string auteur;
+  int annee;
+  std::string identifiant;
+
+  while (util::validerFormatNom (titre) != true)
+    {
+      std::cout << "Veuillez entrer le titre de l'ouvrage" << std::endl;
+      std::cin >> titre;
+
+
+
+    }
+}

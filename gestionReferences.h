@@ -13,8 +13,9 @@
 
 #ifndef GESTIONREFERENCES_H
 #define GESTIONREFERENCES_H
-
-
-
+namespace user
+{
+  void entreeUtilisateur (void);
+}
 #endif /* GESTIONREFERENCES_H */
 

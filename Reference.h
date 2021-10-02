@@ -29,6 +29,10 @@ namespace biblio
                int p_annee, std::string p_identifiant);
     std::string reqReferenceFormate ();
     void modifierAnnee (int p_nouvelleAnnee);
+    std::string reqAuteurs ();
+    std::string reqTitre ();
+    int reqAnnee ();
+    std::string reqIdentifiant ();
   };
 }
 #endif /* REFERENCE_H */
